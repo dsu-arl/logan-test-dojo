@@ -1,0 +1,8 @@
+from flask import Flask, request, make_response, redirect, session
+
+app = Flask(__name__)
+flag = open("/flag").read()
+
+@app.route("/")
+def hello():
+	return flag

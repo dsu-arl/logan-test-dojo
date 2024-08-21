@@ -1,0 +1,7 @@
+id: chase-test-dojo
+name: Chase Test DOJO
+type: example
+award:
+  emoji: 😀
+modules:
+  - id: module1
