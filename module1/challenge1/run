@@ -1,3 +1,4 @@
+#!/opt/pwn.college/python
 from flask import Flask, request, make_response, redirect, session
 
 app = Flask(__name__)
