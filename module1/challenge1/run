@@ -8,5 +8,3 @@ flag = open("/flag").read()
 def hello():
 	return flag
 
-if __name__ == "__main__":
-	app.run()
