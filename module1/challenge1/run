@@ -7,3 +7,6 @@ flag = open("/flag").read()
 @app.route("/")
 def hello():
 	return flag
+
+if __name__ == "__main__":
+	app.run()
