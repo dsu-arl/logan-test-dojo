@@ -1,6 +1,6 @@
-id: logan-test-dojo
-name: Logan Test DOJO
-type: example
+id: logan-test-RE-dojo
+name: Logan Test RE DOJO
+type: Reverse Engineering
 award:
   emoji: 👨‍💻
 modules:
