@@ -1,7 +1,7 @@
-id: chase-test-dojo
-name: Chase Test DOJO
+id: logan-test-dojo
+name: Logan Test DOJO
 type: example
 award:
-  emoji: 😀
+  emoji: 👨‍💻
 modules:
   - id: module1
