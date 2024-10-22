@@ -1,1 +1,1 @@
-This is Chase's testing Dojang.
+This is Logan's testing RE Dojo.
