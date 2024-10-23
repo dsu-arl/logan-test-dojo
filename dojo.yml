@@ -1,7 +1,5 @@
 id: logan-test-dojo
 name: Logan Test RE DOJO
 type: example
-award:
-  emoji: 
 modules:
   - id: module1
