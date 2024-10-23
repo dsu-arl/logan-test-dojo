@@ -1,6 +1,6 @@
 id: logan-test-dojo
 name: Logan Test RE DOJO
-type: ReverseEngineering
+type: example
 award:
   emoji: 👨‍💻
 modules:
