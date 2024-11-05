@@ -1,0 +1,11 @@
+#!/opt/pwn.college/python
+from flask import Flask
+
+app = Flask(__name__)
+with open("/flag", "r") as fObj:
+    flag = fObj.read()
+
+@app.route("/")
+def hello():
+	return flag
+
