@@ -1,6 +1,6 @@
 import base64
 
-def main():
+def main ():
     ans = input("Please enter the passphrase contained in the file: ")
     correct_decoded_string = "You_found_a_base64_encoded_string_great_job"
     if ans.strip() == correct_decoded_string:
@@ -11,4 +11,4 @@ def main():
         print("Sorry, that was incorrect!")
 
 if __name__ == "__main__":
-    main()
+    main ()
