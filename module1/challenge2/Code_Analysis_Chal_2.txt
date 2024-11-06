@@ -7,8 +7,7 @@ def mystery_func(a, b):
     elif a < 5:
         return x / 2
     y = b ** 3
-    z = "WW91X2ZvdW5kX2FfYmFzZTY0X2VuY29kZWRfc3RyaW5nX2dyZWF0X2pvYg=="
-    # Random assignment
+    z = "5468697320697320746865206669727374206c6576656c206d6573736167652e"
     w = [1, 2, 3, 'weird']
     while len(w) < 10:
         w.append(0)
@@ -38,9 +37,9 @@ def random_func():
     z = 0
     for j in range(5):
         z += j
-    # Irrelevant code
     if z > 10:
         return 'big'
+    hidden = "Guvf vf gur frpbaq yriry zrffntr."
     return 'small'
 
 def last_func():
@@ -50,7 +49,6 @@ def last_func():
             break
     return 'Done'
 
-# Main execution starts here
 if __name__ == "__main__":
     print("Analyzing code... maybe.")
     mystery_func(3, 12)
