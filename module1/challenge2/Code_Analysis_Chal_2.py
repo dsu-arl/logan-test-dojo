@@ -8,8 +8,8 @@ def decipher(encoded_str):
         else:
             decoded_str += char
     return decoded_str
-
-encoded_message = "Terng_Wbo_Fbyivat_Guvf_EBG13_pvcure"
+    
+    encoded_message = "Terng_Wbo_Fbyivat_Guvf_EBG13_pvcure"
 
 def main():
     decoded_message = decipher(encoded_message)
