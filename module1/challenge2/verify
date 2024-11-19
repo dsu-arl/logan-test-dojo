@@ -2,7 +2,7 @@
 
 def main ():
     ans = input("Please enter the passphrase contained in the file: ")
-    correct_decoded_string = "You_found_a_base64_encoded_string_great_job"
+    correct_decoded_string = "Great_Job_Solving_This_ROT13_cipher"
     if ans.strip() == correct_decoded_string:
         print("Congratulations! Here is your flag!")
         with open('/flag', 'r') as fObj:
