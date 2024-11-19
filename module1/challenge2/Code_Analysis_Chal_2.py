@@ -9,8 +9,7 @@ def decipher(encoded_str):
             decoded_str += char
     return decoded_str
 
-# Encoded String
-encoded_message = "Gur pyrnare gur zbafgref, gur orggre gur rkcynangvba."
+encoded_message = "Terng_Wbo_Fbyivat_Guvf_EBG13_pvcure"
 
 def main():
     decoded_message = decipher(encoded_message)
