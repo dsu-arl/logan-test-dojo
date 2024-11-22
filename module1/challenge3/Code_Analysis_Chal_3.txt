@@ -1,0 +1,22 @@
+def mystery_func(a, b):
+    x = a * 2
+    if b > 10:
+        return x * 4
+    elif a < 5:
+        return x / 2
+    y = b ** 3
+
+    t1 = "U2ltdWxhdGVkRGF0YQ=="
+    t2 = "RGVmZWN0ZWRUcmFjZQ=="
+
+    list = ["WW91", "X2Zvd", "W5kX2", "FfYmFz", "ZTY0X2Vu", "Y29kZWRfc", "3RyaW5n", "X2dyZWF0", "X2pvYg=="]
+    combined = "".join(list)
+
+    intermediate1 = base64.b64decode(t1).decode('utf-8')
+    intermediate2 = base64.b64decode(t2).decode('utf-8')
+    final_result = base64.b64decode(combined).decode('utf-8')
+
+    sequence = [1, 2, 3, 'strange']
+    while len(sequence) < 10:
+        sequence.append(0)
+    return sequence
