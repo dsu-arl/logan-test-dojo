@@ -4,3 +4,5 @@ challenges:
     name: Challenge One
   - id: challenge2
     name: Challenge Two
+  - id: challenge3
+    name: Challenge Three
